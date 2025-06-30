@@ -1,0 +1,210 @@
+/* GLOBAL FONT */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+}
+
+/* GENERAL BUTTONS */
+.btn {
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('https://i.pinimg.com/736x/c7/00/da/c700da0b4c29049452949ae7471a4313.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero-image p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+/* BUTTON COLORS */
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  color: #000;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-outline-dark {
+  border-color: #111;
+  color: #111;
+}
+
+.btn-outline-dark:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+/* PARALLAX */
+.parallax {
+  position: relative;
+  background: url('Portadas Ebooks/Portada para Facebook Empresas Moderno Amarillo.png') center/cover fixed no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.parallax h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0,0,0,0.4);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* PRODUCT SECTION */
+.product-section {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.product-section h2 {
+  color: #111;
+  font-size: 2.5rem;
+}
+
+.product-section p {
+  color: #555;
+  font-size: 1.125rem;
+}
+
+/* Carousel */
+.carousel-container img {
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+/* Product Cards */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #222;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  background-color: #111;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.contact-section h3 {
+  font-size: 2rem;
+}
+
+.contact-section p {
+  color: #ccc;
+}
+
+.contact-section .btn {
+  min-width: 160px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.contact-section .btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.contact-section .btn-success {
+  background-color: #25d366;
+}
+
+.contact-section .btn-success:hover {
+  background-color: #1ebe57;
+}
+
+.contact-section a.text-warning {
+  font-weight: 700;
+  margin-top: 1rem;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/* FOOTER FIX - SIEMPRE BLANCO */
+.footer {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 0.95rem;
+  padding: 1rem 0;
+}
+
+.footer * {
+  color: #fff !important;
+}
+
+.footer a {
+  color: #ffc107 !important;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
